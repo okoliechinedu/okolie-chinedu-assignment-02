@@ -18,10 +18,10 @@ function sumOfNumbers(arrayOfNumbers) {
   for(var i in arrayOfNumbers) {
     total += arrayOfNumbers[i];
   }
-  console.log(total)
+  return total
 }
 
-sumOfNumbers([123,155,134, 205, 105])
+console.log(sumOfNumbers([123,155,134, 205, 105]))
 
 /**
  * Challenge - 2
@@ -39,10 +39,10 @@ function countEvenNumbers(arrayOfNumbers) {
       count ++
     }
   }
-  console.log(count)
+  return count
 }
 
-countEvenNumbers([4,5,7,8,14,45,76])
+console.log(countEvenNumbers([4,5,7,8,14,45,76]))
 
 /**
  * Challenge - 3
